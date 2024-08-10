@@ -1,0 +1,173 @@
+/* Main Website */
+body {
+    background-color: #020925; /* Dark blue background */
+    font-family: 'Roboto', sans-serif;
+    color: #B8CCE3; /* Light blue text */
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    margin-bottom: 60px;
+    padding: 20px;
+}
+
+h1, h2 {
+    color: #4A90E2; /* Bright blue for headings */
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    text-align: center;
+}
+h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+h3 {
+    color: #70B7FF; /* Lighter blue for subheadings */
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    text-align: center;
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+h4, p {
+    color: #A3B9E3; /* Softer blue for text */
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: center;
+    margin: 10px 0;
+}
+
+.center {
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+img.logo {
+    width: 100px;
+    height: 100px;
+    margin-top: 20px;
+}
+
+/* Columns */
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.column2 {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+/* Links */
+a {
+    text-decoration: none;
+    color: #87CEEB; /* Sky blue links */
+    width: max-content;
+    margin: 0 auto;
+}
+a:hover {
+    color: #5393D1; /* Slightly darker blue hover effect */
+}
+
+/* Game */
+#actual-games {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+div.game {
+    position: relative;
+    padding: 20px;
+    border: 1px solid #3B6FA0; /* Deep blue border */
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: #081833; /* Very dark blue background */
+}
+.game {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+.game img {
+    max-width: 100%;
+    height: auto;
+}
+a.os {
+    font-size: 16px;
+    color: #87CEEB; /* Sky blue */
+}
+
+/* Navigation */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #030D22; /* Dark blue for the navbar */
+    color: #fff;
+    padding: 15px 30px;
+}
+  
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.social {
+    font-size: 18px;
+}
+
+.team-social {
+    font-size: 28px;
+}
+  
+.left-menu {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+  
+.left-menu li {
+    margin-right: 20px;
+}
+  
+.right-menu {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+  
+.right-menu li {
+    margin-left: 20px;
+}
+
+/* Footer */
+footer {
+    background-color: #030D22; /* Matching dark blue for footer */
+    padding: 20px 0;
+    text-align: center;
+    color: #B8CCE3; /* Light blue text */
+    font-size: 14px;
+}
+footer a {
+    color: #B8CCE3;
+    text-decoration: underline;
+}
+footer a:hover {
+    color: #5393D1; /* Slightly darker blue hover effect */
+}
