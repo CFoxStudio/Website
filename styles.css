@@ -1,8 +1,8 @@
 /* Main Website */
 body {
-    background-color: #020925; /* Dark blue background */
+    background-color: #1E135B; /* Dark purple-blue background */
     font-family: 'Roboto', sans-serif;
-    color: #B8CCE3; /* Light blue text */
+    color: #D8E6F7; /* Soft light blue text */
     margin: 0;
     padding: 0;
 }
@@ -13,7 +13,7 @@ section {
 }
 
 h1, h2 {
-    color: #4A90E2; /* Bright blue for headings */
+    color: #647FD4; /* Bright blue for headings */
     font-family: 'Yanone Kaffeesatz', sans-serif;
     text-align: center;
 }
@@ -26,14 +26,14 @@ h2 {
     margin-bottom: 20px;
 }
 h3 {
-    color: #70B7FF; /* Lighter blue for subheadings */
+    color: #839FFF; /* Lighter blue for subheadings */
     font-family: 'Yanone Kaffeesatz', sans-serif;
     text-align: center;
     font-size: 22px;
     margin-bottom: 10px;
 }
 h4, p {
-    color: #A3B9E3; /* Softer blue for text */
+    color: #CBD6F0; /* Softer blue for text */
     font-size: 16px;
     line-height: 1.6;
     text-align: center;
@@ -92,10 +92,10 @@ a:hover {
 div.game {
     position: relative;
     padding: 20px;
-    border: 1px solid #3B6FA0; /* Deep blue border */
+    border: 1px solid #574B9E; /* Deep blue border */
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    background-color: #081833; /* Very dark blue background */
+    background-color: #281A69; /* Very dark blue-purple background */
 }
 .game {
     border: 1px solid #ddd;
@@ -116,7 +116,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #030D22; /* Dark blue for the navbar */
+    background-color: #1D0E4E; /* Dark purple for the navbar */
     color: #fff;
     padding: 15px 30px;
 }
@@ -158,16 +158,13 @@ nav a {
 
 /* Footer */
 footer {
-    background-color: #030D22; /* Matching dark blue for footer */
+    background-color: #1D0E4E; /* Matching dark purple for footer */
     padding: 20px 0;
     text-align: center;
-    color: #B8CCE3; /* Light blue text */
+    color: #D8E6F7; /* Light blue text */
     font-size: 14px;
 }
 footer a {
-    color: #B8CCE3;
+    color: #D8E6F7;
     text-decoration: underline;
-}
-footer a:hover {
-    color: #5393D1; /* Slightly darker blue hover effect */
 }
